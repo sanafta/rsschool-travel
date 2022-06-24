@@ -6,6 +6,9 @@ $whiteColor: #FFFFFF;
 $darkBlueColor: #0D606F;
 $hoverColor: #0f7081;
 /* ================================================================ */
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: 'Aleo', serif;
 	color: $darkBlueColor;
