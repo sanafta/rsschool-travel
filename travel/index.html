@@ -15,29 +15,42 @@
 </head>
 
 <body>
+	<div class="black-screen"></div>
 	<div class="wrapper">
+
 		<header class="header">
 			<div class="header__container">
 				<div class="header__body">
 					<a href="https://sanafta.github.io/rsschool-travel/travel/" class="header__logo _icon-logo">
 						<span>Travel Portal</span>
 					</a>
-					<nav class="header__menu menu">
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a href="#preview" class="menu__link">How It Works</a>
-							</li>
-							<li class="menu__item">
-								<a href="#steps" class="menu__link">Plan Your Trip</a>
-							</li>
-							<li class="menu__item">
-								<a href="#destinations" class="menu__link">Destinations</a>
-							</li>
-							<li class="menu__item">
-								<a href="#stories" class="menu__link">Travel Stories</a>
-							</li>
-						</ul>
-					</nav>
+					<div class="header__menu menu">
+						<div class="menu__burger">
+							<span></span>
+						</div>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#preview" class="menu__link">How It Works</a>
+								</li>
+								<li class="menu__item">
+									<a href="#steps" class="menu__link">Plan Your Trip</a>
+								</li>
+								<li class="menu__item">
+									<a href="#destinations" class="menu__link">Destinations</a>
+								</li>
+								<li class="menu__item">
+									<a href="#stories" class="menu__link">Travel Stories</a>
+								</li>
+								<li class="menu__item menu__item_390px">
+									<a href="#!" class="menu__link">Account</a>
+								</li>
+								<li class="menu__item  menu__item_390px">
+									<a href="#social" class="menu__link">Social Media</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
 					<button type="button" class="header__button button">Login</button>
 				</div>
 			</div>
@@ -65,17 +78,17 @@
 					<div class="steps__body">
 						<h2 class="steps__title title">3 STEPS TO THE PERFECT TRIP</h2>
 						<div class="steps__items">
-							<div class="steps__item item-steps">
-								<div class="item-steps__icon _icon-to-do"></div>
-								<div class="item-steps__text">Tell us what you want to do</div>
+							<div class="steps__item item-step">
+								<div class="item-step__icon _icon-to-do"></div>
+								<div class="item-step__text">Tell us what you want to do</div>
 							</div>
-							<div class="steps__item item-steps">
-								<div class="item-steps__icon _icon-date"></div>
-								<div class="item-steps__text">Share us preferable dates</div>
+							<div class="steps__item item-step">
+								<div class="item-step__icon _icon-date"></div>
+								<div class="item-step__text item-step__text_center">Share us preferable dates</div>
 							</div>
-							<div class="steps__item item-steps">
-								<div class="item-steps__icon _icon-rec"></div>
-								<div class="item-steps__text">We will give you recommendations</div>
+							<div class="steps__item item-step">
+								<div class="item-step__icon _icon-rec"></div>
+								<div class="item-step__text item-step__text_right">We will give you recommendations</div>
 							</div>
 						</div>
 					</div>
@@ -99,6 +112,18 @@
 									<img src="img/destionations/usa.jpg" alt="USA">
 									<h3 class="slider__label">USA</h3>
 								</div>
+
+								<div class="slider__item-mobail _ibg">
+									<img src="img/destionations/spain-mobail.jpg" alt="Spain">
+									<h3 class="slider__label">Spain</h3>
+								</div>
+								<img src="img/destionations/arrow-left.svg" alt="arrow-left" class="arrow-left">
+								<img src="img/destionations/arrow-right.svg" alt="arrow-left" class="arrow-right">
+								<ul class="slider__pagination-mobail">
+									<li class="slider__bullet-mobail slider__bullet_active-mobail"></li>
+									<li class="slider__bullet-mobail"></li>
+									<li class="slider__bullet-mobail"></li>
+								</ul>
 							</div>
 							<ul class="slider__pagination">
 								<li class="slider__bullet"></li>
@@ -120,7 +145,7 @@
 									<div class="item-stories__image _ibg">
 										<img src="img/stories/1.jpg" alt="Thailand">
 									</div>
-									<div class="item-stories__content">
+									<div class=" item-stories__content">
 										<h3 class="item-stories__title">10 Photos of Attractive Thailand</h3>
 										<div class="item-stories__text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
@@ -175,18 +200,18 @@
 		<footer class="footer">
 			<div class="footer__container">
 				<div class="footer__body">
-					<ul class="footer__list list-footer">
+					<ul class="footer__list list-footer list-footer_none">
 						<li class="list-footer__item">
-							<a href="https://github.com/sanafta" target="_blank"><img class="list-footer__logo-github" src="img/footer/github.svg" alt="Logo Git Hub"></a>
+							<a href="https://github.com/sanafta" target="_blank"><img class="list-footer__logo-github" src="img/footer/gh.svg" alt="Logo Git Hub"></a>
 						</li>
 						<li class="list-footer__item">
-							<a href="https://rs.school/js/" target="_blank"><img class="list-footer__logo-rsschool" src="img/footer/rs-school.svg" alt="Logo RS School"></a>
+							<a href="https://rs.school/js/" target="_blank"><img class="list-footer__logo-rsschool" src="img/footer/rsschool-white.svg" alt="Logo RS School"></a>
 						</li>
 					</ul>
 					<div class="footer__copyright">
 						<a href="https://sanafta.github.io/rsschool-travel/travel/">All Rights Reserved © Travel Portal</a>
 					</div>
-					<ul class="footer__list list-footer">
+					<ul class="footer__list list-footer" id="social">
 						<li class="list-footer__item">
 							<a class="_icon-inst" href="#!"></a>
 						</li>
@@ -201,7 +226,8 @@
 			</div>
 		</footer>
 	</div>
-	<script src="/js/index.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/index.js"></script>
 </body>
 
 </html>
