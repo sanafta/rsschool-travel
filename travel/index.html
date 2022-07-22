@@ -42,16 +42,16 @@
 								<li class="menu__item">
 									<a href="#stories" class="menu__link">Travel Stories</a>
 								</li>
-								<li class="menu__item menu__item_390px">
+								<li class="menu__item menu__item_767px">
 									<a href="#!" class="menu__link">Account</a>
 								</li>
-								<li class="menu__item  menu__item_390px">
+								<li class="menu__item  menu__item_767px">
 									<a href="#social" class="menu__link">Social Media</a>
 								</li>
 							</ul>
 						</nav>
 					</div>
-					<button type="button" class="header__button button">Login</button>
+					<button type="button" class="header__button button account">Login</button>
 				</div>
 			</div>
 		</header>
@@ -113,21 +113,20 @@
 									<h3 class="slider__label">USA</h3>
 								</div>
 
-								<div class="slider__item-mobail _ibg">
-									<img src="img/destionations/spain-mobail.jpg" alt="Spain">
-									<h3 class="slider__label">Spain</h3>
-								</div>
-								<img src="img/destionations/arrow-left.svg" alt="arrow-left" class="arrow-left">
-								<img src="img/destionations/arrow-right.svg" alt="arrow-left" class="arrow-right">
-								<ul class="slider__pagination-mobail">
-									<li class="slider__bullet-mobail slider__bullet_active-mobail"></li>
+								<!-- <img src="img/destionations/arrow-left.svg" alt="arrow-left" class="arrow-left">
+								<img src="img/destionations/arrow-right.svg" alt="arrow-left" class="arrow-right"> -->
+
+								<!-- <ul class="slider__pagination-mobail">
 									<li class="slider__bullet-mobail"></li>
 									<li class="slider__bullet-mobail"></li>
-								</ul>
+									<li class="slider__bullet-mobail"></li>
+								</ul> -->
 							</div>
+							<button class="prev active"></button>
+							<button class="next active"></button>
 							<ul class="slider__pagination">
 								<li class="slider__bullet"></li>
-								<li class="slider__bullet slider__bullet_active"></li>
+								<li class="slider__bullet"></li>
 								<li class="slider__bullet"></li>
 							</ul>
 						</div>
@@ -226,6 +225,47 @@
 			</div>
 		</footer>
 	</div>
+
+	<div class="popup">
+		<div class="popup__body">
+			<div class="popup__content log-in">
+				<h3 class="popup__title">Log in to your account</h3>
+				<button type="button" class="popup__btn popup__btn_fb">Sign In with Facebook</button>
+				<button type="button" class="popup__btn popup__btn_google">Sign In with Google</button>
+				<div class="popup__line"><span>or</span></div>
+				<form class="popup__form" name="registr" id="registr">
+					<div class="popup__email-body">
+						<label class="popup__label" for="email">E-mail</label>
+						<input class="popup__input" type="email" id="email" name="email" required>
+					</div>
+					<div class="popup__password-body">
+						<label class="popup__label" for="password">Password</label>
+						<input class="popup__input" type="password" id="password" name="password" required>
+					</div>
+					<button type="submit" class="popup__btn">Sign In</button>
+					<a href="#!" class="popup__link">Forgot Your Password?</a>
+				</form>
+				<div class="popup__have-an-account">Don’t have an account? <a href="#!" class="popup__link">Register</a></div>
+			</div>
+
+			<div class="popup__content sign-up">
+				<h3 class="popup__title">Create account</h3>
+				<form class="popup__form" name="create" id="create">
+					<div class="popup__email-body">
+						<label class="popup__label" for="email-create">E-mail</label>
+						<input class="popup__input" type="email" id="email" name=" email" required>
+					</div>
+					<div class="popup__password-body">
+						<label class="popup__label" for="password-create">Password</label>
+						<input class="popup__input" type="password" id="password" name="password" required>
+					</div>
+					<button type="submit" class="popup__btn">Sign In</button>
+				</form>
+				<div class="popup__have-an-account">Already have an account? <a href="#!" class="popup__link">Log in</a></div>
+			</div>
+		</div>
+	</div>
+
 	<script src="js/script.js"></script>
 	<script src="js/index.js"></script>
 </body>
